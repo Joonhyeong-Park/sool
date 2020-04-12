@@ -1,0 +1,38 @@
+*{
+    box-sizing  : border-box;
+}
+header{
+    background-color : rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius:20px;
+}
+a{
+    color : white;
+}
+main{
+    width:70%;
+    margin : 0 auto;
+    background-color:rgb(204, 204, 204);
+}
+h3{
+    margin-left:10px;
+    margin-right:10px;
+}
+.date{
+    margin-left:10px;
+    margin-right:10px;
+}
+.content{
+    margin-left:10px;
+    margin-right:10px;
+}
+box{
+    display:flex;
+    justify-content: center;
+    width:auto;
+}
+form{
+    padding : 10px;
+    background-color:rgb(204, 204, 204);
+}

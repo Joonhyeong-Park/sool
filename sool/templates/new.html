@@ -1,0 +1,18 @@
+{% load static %}
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'sool/css/style.css' %}"/>
+</head>
+
+<body>
+    <header>
+        <h1>기억나는 술 작성 페이지</h1>
+    </header>
+    <box>
+        <form method="POST" class="post-form"> {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">SAVE</button>
+        </form>
+    </box>
+</body>
+
